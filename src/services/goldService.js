@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_KEY = "goldapi.io";
+const API_KEY = "goldapi-2rg15slxx67d3a-io";
+
 const URL = "https://www.goldapi.io/api/XAU/USD";
 
 export const fetchGoldPrices = async () => {
