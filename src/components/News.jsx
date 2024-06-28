@@ -14,13 +14,19 @@ const News = () => {
 
   return (
     <div className="grid-container">
-      {news.map((article, index) => (
-        <div key={index} className="grid-item">
-          <img src={article.urlToImage} alt={article.title} />
-          <h3>{article.title}</h3>
-          <p>{article.author}</p>
-        </div>
-      ))}
+      {news.map((article, index) => {
+        if (article.urlToImage == null) {
+          return null;
+        }
+        console.log(article.urlToImage);
+        return (
+          <div key={index} className="grid-item">
+            <img src={article.urlToImage} alt={article.title} />
+            <h3>{article.title}</h3>
+            <p>{article.author}</p>
+          </div>
+        );
+      })}
     </div>
   );
 };
