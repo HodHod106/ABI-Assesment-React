@@ -5,15 +5,17 @@ body {
   box-sizing: border-box;
   background-color: hsl(150, 100%, 98%);
 }
-
 header {
-  background-color: #8e1e1e;
   color: #fff;
-  padding: 20px 0;
+  padding: 30px 0;
   text-align: center;
-  font-size: large;
-}
+  box-shadow: 0 4px 8px 0 rgba(50, 50, 50, 0.5);
+  font-family: sans-serif;
+  font-size: 18px;
 
+  color: aqua;
+}
+/*
 header nav ul {
   list-style-type: none;
   margin: 0;
@@ -63,4 +65,4 @@ section {
 
 .grid-item p {
   color: #666;
-}
+} */

@@ -5,6 +5,7 @@ const URL = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_KEY}`;
 
 export const fetchNews = async () => {
   try {
+    //  console.log("Got here ");
     const response = await axios.get(URL);
     return response.data.articles;
   } catch (error) {
