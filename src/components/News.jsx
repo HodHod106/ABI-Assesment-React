@@ -13,7 +13,7 @@ const News = () => {
   }, []);
 
   return (
-    <div className="grid-container">
+    <div className="grid-container-newes">
       {news.map((article, index) => {
         if (article.urlToImage == null) {
           return null;
@@ -24,6 +24,9 @@ const News = () => {
             <img src={article.urlToImage} alt={article.title} />
             <h3>{article.title}</h3>
             <p>{article.author}</p>
+            <button onClick={() => window.open(article.url, "_blank")}>
+              Read More
+            </button>
           </div>
         );
       })}

@@ -15,7 +15,6 @@ header {
 
   color: aqua;
 }
-/*
 header nav ul {
   list-style-type: none;
   margin: 0;
@@ -40,17 +39,21 @@ section {
   margin-bottom: 40px;
 }
 
-.grid-container {
+.grid-container-newes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 
-.grid-item {
-  background-color: #fff;
+.grid-container-newes .grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
 }
 
 .grid-item img {
@@ -65,4 +68,14 @@ section {
 
 .grid-item p {
   color: #666;
-} */
+}
+.grid-item button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(30, 126, 244, 0.785);
+  border-radius: 4px;
+  border-color: blue;
+}
