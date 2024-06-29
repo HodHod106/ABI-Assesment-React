@@ -23,38 +23,16 @@ const GoldPrices = () => {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>24K</td>
-              <td>{goldPrices.price_gram_24k}</td>
-            </tr>
-            <tr>
-              <td>22K</td>
-              <td>{goldPrices.price_gram_22k}</td>
-            </tr>
-            <tr>
-              <td>21K</td>
-              <td>{goldPrices.price_gram_21k}</td>
-            </tr>
-            <tr>
-              <td>20K</td>
-              <td>{goldPrices.price_gram_20k}</td>
-            </tr>
-            <tr>
-              <td>18K</td>
-              <td>{goldPrices.price_gram_18k}</td>
-            </tr>
-            <tr>
-              <td>16K</td>
-              <td>{goldPrices.price_gram_16k}</td>
-            </tr>
-            <tr>
-              <td>14K</td>
-              <td>{goldPrices.price_gram_14k}</td>
-            </tr>
-            <tr>
-              <td>10K</td>
-              <td>{goldPrices.price_gram_10k}</td>
-            </tr>
+            {Object.entries(goldPrices)
+              .filter(
+                ([type, price]) => type.includes("k") && !type.includes("ask")
+              )
+              .map(([type, price]) => (
+                <tr key={type}>
+                  <td>{type.replace("price_gram_", "").toUpperCase()}</td>
+                  <td>{price}</td>
+                </tr>
+              ))}
           </tbody>
         </table>
       )}
