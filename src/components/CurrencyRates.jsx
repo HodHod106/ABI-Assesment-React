@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { fetchCurrencyRates } from "../services/currencyService";
+import CurrencyChart from "../services/CurrChangHisData";
 
 const CurrencyRates = () => {
   const [rate, setRate] = useState(null);
@@ -89,6 +90,10 @@ const CurrencyRates = () => {
               </p>
             </div>
           )}
+        </div>
+        <div className="chart-section">
+          <h3>Real-time Data</h3>
+          <CurrencyChart fromCurrency={fromCurrency} toCurrency={toCurrency} />
         </div>
       </div>
     </div>

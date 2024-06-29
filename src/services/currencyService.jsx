@@ -14,5 +14,4 @@ export const fetchCurrencyRates = async () => {
     return null;
   }
 };
-
 fetchCurrencyRates();
