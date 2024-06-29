@@ -42,7 +42,9 @@ function App() {
           <CurrencyRates />
         </section>
         <section id="gold">
-          <h2>Gold Prices</h2>
+          <center>
+            <h2 id="goldProceColor">Gold Prices</h2>
+          </center>
           <GoldPrices />
         </section>
       </main>

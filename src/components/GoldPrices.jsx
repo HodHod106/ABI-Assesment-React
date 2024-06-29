@@ -24,9 +24,7 @@ const GoldPrices = () => {
           </thead>
           <tbody>
             {Object.entries(goldPrices)
-              .filter(
-                ([type, price]) => type.includes("k") && !type.includes("ask")
-              )
+              .filter(([type]) => type.includes("k") && !type.includes("ask"))
               .map(([type, price]) => (
                 <tr key={type}>
                   <td>{type.replace("price_gram_", "").toUpperCase()}</td>

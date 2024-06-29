@@ -26,7 +26,7 @@ function CurrencyChart({ fromCurrency, toCurrency }) {
     }
   };
 
-  useInterval(fetchCurrencyData, 10000); // Fetch data every 10 seconds
+  useInterval(fetchCurrencyData, 1000); // Fetch data every 10 seconds
 
   const times = currencyData.map((item) => item.time);
   const rates = currencyData.map((item) => item.rate);
