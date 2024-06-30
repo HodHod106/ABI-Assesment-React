@@ -23,7 +23,7 @@ jobs:
         rm -rf ABI-Assesment-React
         git clone https://github.com/HodHod106/ABI-Assesment-React.git
         cd ABI-Assesment-React
-        npm install
-        pm2 start npm --name "myApp" -- run "start:production"
+        sudo npm install
+        sudo pm2 start npm --name "myApp" -- run "start:production"
         EOF
 
