@@ -1,6 +1,6 @@
 # <span style="color: red; font-weight: bold;"> Getting Started with Create React App </span>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) . 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) .
 
 ## Run Application
 
@@ -79,7 +79,7 @@ The News component in React fetches and displays top news articles using the fet
 
 #### Final Look
 
-![alt text](image-2.png)
+![alt text](image-4.png)
 
 ### <span style="color: blue; font-weight: bold;"> Gold Prices Tracker (in EGP): </span>
 
