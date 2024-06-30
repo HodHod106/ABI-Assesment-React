@@ -14,29 +14,29 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## Application Sections
+## <span style="color: red; font-weight: bold;"> Application Sections </span>
 
 Application consists three main section News, Currency Exchange Rates, and Gold Prices Tracker
 
-### News:
+### <span style="color: blue; font-weight: bold;"> News: </span>
 
 A feature that allows users to browse and read news articles from various sources. Users can filter news by category or search for specific topics of interest.
 
-### Currency Exchange Rates:
+### <span style="color: blue; font-weight: bold;"> Currency Exchange Rates:: </span>
 
 This feature enables users to track and compare currency exchange rates between Egyptian Pound (EGP) and US Dollar (USD) in real-time. Users can view historical data and trends, helping them make informed financial decisions.
 
-### Gold Prices Tracker (in EGP):
+### <span style="color: blue; font-weight: bold;"> Gold Prices Tracker (in EGP): </span>
 
 Users can monitor recent gold prices in Egyptian Pound (EGP). The feature provides current prices, historical trends, and graphical representations to visualize price fluctuations over time
 
-## How Each one Actually Works
+## <span style="color: red; font-weight: bold;"> How Each one Actually Works </span>
 
 The header component serves as the navigation bar for the application, providing easy access to different sections. It typically includes links for navigating between news browsing, currency exchange rates, and gold prices tracking features.
 
 ![alt text](image.png)
 
-### News:
+### <span style="color: blue; font-weight: bold;"> News: </span>
 
 #### News Service:
 
@@ -55,7 +55,7 @@ The News component in React fetches and displays top news articles using the fet
 
 ![alt text](image-1.png)
 
-### Currency Exchange Rates:
+### <span style="color: blue; font-weight: bold;"> Currency Exchange Rates:: </span>
 
 #### Currency Service (currencyService.js):
 
@@ -81,7 +81,7 @@ The News component in React fetches and displays top news articles using the fet
 
 ![alt text](image-2.png)
 
-### Gold Prices Tracker:
+### <span style="color: blue; font-weight: bold;"> Gold Prices Tracker (in EGP): </span>
 
 #### Gold Service:
 
