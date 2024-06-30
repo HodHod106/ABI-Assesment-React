@@ -15,12 +15,15 @@
 
 import axios from "axios";
 
-const API_KEY = process.env.EWS_API_KEY;
-const BASE_URL = `https://newsapi.org/v2/top-headlines`;
+//console.log(process.env.REACT_APP_NEWS_API_KEY, "fiugfiew");
 
+//const BASE_URL = `https://newsapi.org/v2/top-headlines`;
+// `${BASE_URL}?apiKey=${API_KEY}`
 export const fetchNews = async () => {
   try {
-    const response = await axios.get(`${BASE_URL}?apiKey=${API_KEY}`);
+    const response = await axios.get(
+      `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`
+    );
     return response.data.articles;
   } catch (error) {
     console.error("Error fetching news data:", error);
