@@ -25,3 +25,5 @@ jobs:
         cd ABI-Assesment-React
         npm install
         npm start
+        EOF
+
