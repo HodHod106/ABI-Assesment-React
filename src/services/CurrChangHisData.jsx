@@ -33,7 +33,7 @@ function CurrencyChart({ fromCurrency, toCurrency }) {
 
   return (
     <center>
-      <h2>Real-time Currency Exchange Rate Chart</h2>
+      {/* <h2>Real-time Currency Exchange Rate Chart</h2> */}
       <Plot
         data={[
           {

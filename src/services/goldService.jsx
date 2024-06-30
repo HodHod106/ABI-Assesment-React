@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "goldapi-h4q1slxzxs3fs-io";
+const API_KEY = "goldapi-rgclisly0i0oop-io";
 
 const URL = "https://www.goldapi.io/api/XAU/USD";
 

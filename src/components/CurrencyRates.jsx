@@ -92,7 +92,6 @@ const CurrencyRates = () => {
           )}
         </div>
         <div className="chart-section">
-          <h3>Real-time Data</h3>
           <CurrencyChart fromCurrency={fromCurrency} toCurrency={toCurrency} />
         </div>
       </div>

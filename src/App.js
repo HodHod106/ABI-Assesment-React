@@ -34,16 +34,16 @@ function App() {
           </p>
         </section>
         <section id="news">
-          <h2>Latest News</h2>
+          <h2 class="sections-color">Latest News</h2>
           <News />
         </section>
         <section id="currency">
-          <h2>Currency Exchange Rates</h2>
+          <h2 class="sections-color">Currency Exchange Rates</h2>
           <CurrencyRates />
         </section>
         <section id="gold">
           <center>
-            <h2 id="goldProceColor">Gold Prices</h2>
+            <h2 class="sections-color">Gold Prices</h2>
           </center>
           <GoldPrices />
         </section>
