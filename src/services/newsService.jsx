@@ -30,3 +30,6 @@ export const fetchNews = async () => {
     return [];
   }
 };
+
+// pub_4764490f6e1086591612193df45749b02c182
+// https://newsdata.io/api/1/latest?apikey=pub_4764490f6e1086591612193df45749b02c182&q=pizza
