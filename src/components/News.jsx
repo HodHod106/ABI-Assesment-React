@@ -15,11 +15,13 @@ const NewsComponent = () => {
       setError(null);
       const newsData = await fetchNews();
       // console.log(length);
-      if (newsData.length > 0) {
-        setNews(newsData); // Adjust based on the actual response structure
-      } else {
-        setError("No news data found");
-      }
+      setNews(newsData); // Adjust based on the actual response structure
+
+      // if (newsData.length > 0) {
+      //   setNews(newsData); // Adjust based on the actual response structure
+      // } else {
+      //   setError("No news data found");
+      // }
       setLoading(false);
     };
 
@@ -38,9 +40,10 @@ const NewsComponent = () => {
     <div>
       <div className="grid-container-newes">
         {news.map((item, index) => {
-          if (item.imageUrl == null) {
-            return "dad";
+          if (item.imageUrl == null || item.imageUrl == "") {
+            return null;
           } else {
+            console.log(item.imageUrl);
             return (
               <div key={index} className="grid-item">
                 <img src={item.imageUrl} alt={item.title} />
