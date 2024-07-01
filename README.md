@@ -1,6 +1,7 @@
 # <span style="color: red; font-weight: bold;"> ABI Assessment React App </span>
 
 ## Deployment Link
+
 https://abi-assesment-react.vercel.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) .
@@ -92,7 +93,7 @@ This service file (goldService.js) defines a function fetchGoldPrices that fetch
 
 #### Gold Prices Component (GoldPrices.js):
 
-The GoldPrices component in React fetches and displays real-time gold prices in USD per gram using the fetchGoldPrices function from goldService.js. It utilizes React's useState and useEffect hooks to manage component state and fetch data asynchronously upon component mount. Once data is fetched, it dynamically renders a table displaying different types of gold prices filtered based on their key names (price*gram*\*). Each row in the table represents a specific type of gold (e.g., 24k, 18k) alongside its current price per gram.
+The GoldPrices component in React fetches and displays real-time gold prices in USD per gram using the fetchGoldPrices function from (goldService.js). It utilizes React's useState and useEffect hooks to manage component state and fetch data asynchronously upon component mount. Once data is fetched, it dynamically renders a table displaying different types of gold prices filtered based on their key names (price*gram*\*). Each row in the table represents a specific type of gold (e.g., 24k, 18k) alongside its current price per gram.
 
 #### Final Look
 
