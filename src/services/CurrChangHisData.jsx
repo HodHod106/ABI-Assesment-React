@@ -8,7 +8,7 @@ function CurrencyChart({ fromCurrency, toCurrency }) {
   const [currencyData, setCurrencyData] = useState([]);
   const [currentRate, setCurrentRate] = useState(null);
 
-  const API_KEY = "cb8991e2ea-18b7bfe4b9-sfqvsn";
+  const API_KEY = "fcd27db08f-c2d1544272-sg5lfp";
 
   const fetchCurrencyData = async () => {
     try {

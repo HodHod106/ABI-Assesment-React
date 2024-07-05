@@ -47,7 +47,7 @@ const NewsComponent = () => {
             return (
               <div key={index} className="grid-item">
                 <img src={item.imageUrl} alt={item.title} />
-                <h2>{item.title}</h2>
+                <h3>{item.title}</h3>
                 <p>{item.authorsByline}</p>
                 <button onClick={() => window.open(item.url, "_blank")}>
                   Read More

@@ -50,7 +50,7 @@ export const fetchNews = async () => {
       "https://api.goperigon.com/v1/all?from=2024-06-30&country=us&sourceGroup=top100&showNumResults=true&showReprints=false&paywall=false&excludeLabel=Non-news&excludeLabel=Opinion&excludeLabel=Paid News&excludeLabel=Roundup&excludeLabel=Press Release&sortBy=date&category=Finance&category=Tech&category=Sports",
       {
         headers: {
-          "x-api-key": "7611ec0a-a743-4387-9083-e665ca1fb1db",
+          "x-api-key": "f6f547eb-c7bd-4976-b337-f96bea11d389",
         },
       }
     );
